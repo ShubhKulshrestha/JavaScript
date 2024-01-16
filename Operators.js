@@ -38,6 +38,6 @@ a >= b; // Greater than or equal to
 a <= b; // Less than or equal to
 
 //Logical Operator
-(a<15) && (b>6);//AND 
-(a==6) || (b==6_;//OR
-!(a>b);//NOT
+(a<15) && (b>6); // AND 
+(a==6) || (b==6_; // OR
+!(a>b); // NOT
