@@ -1,4 +1,4 @@
-//Here the examples of object in JavaScript...
+//Here the examples of object in JavaScript..
 const profile={
     username:"Shubh Kulshrestha",
     posts:1,
