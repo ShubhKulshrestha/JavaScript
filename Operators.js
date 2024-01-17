@@ -41,3 +41,7 @@ a <= b; // Less than or equal to
 (a<15) && (b>6); // AND 
 (a==6) || (b==6); // OR
 !(a>b); // NOT
+
+//Ternary Operator
+let result = a > b ? "yes" : "no";
+console.log(result);
