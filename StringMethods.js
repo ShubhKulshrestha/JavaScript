@@ -1,13 +1,13 @@
 //String Methods
-str.toUpperCase()
+//str.toUpperCase()
 let str="Shubh";
 console.log(str.toUpperCase());
 
-str.toLowerCase()
+//str.toLowerCase()
 let str="Shubh";
 console.log(str.toLowerCase());
 
-str.trim()
+//str.trim()
 let str="Shubh";
 console.log(str.trim());
 
@@ -30,10 +30,10 @@ console.log(a+b);//ShubhBCA
 
 // str.replace(searchVal,newVal)
 let str="hello";
-console.log(str.replace("h","m"));
-
+console.log(str.replace("h","m"));//melllo
 let str="hello";
-console.log(str.replace("l","m"));
+console.log(str.replace("l","m"));//hemlo
+console.log(str.replaceAll("l","m"));//hemmo
 
 
 // str.charAt(index)
