@@ -37,3 +37,27 @@ let items=["Apple","Orange","Mango"];
  dc_Heroes=["batman","superman"];
  let heroes=marvelHeroes.concat(dc_Heroes);
  console.log(heroes);
+
+// unshift() 
+let marvelHeroes=["Thor","Spiderman","Ironman"];
+marvelHeroes.unshift("Antman");
+console.log(marveHeroes);
+
+// shift()
+let marvelHeroes=["Thor","Spiderman","Ironman"];
+marvelHeroes.shift();
+console.log(marvelHeroes);
+let deletedItem = marvelHeroes.shift();
+console.log(marvelHeroes);
+console.log("deleted item is",deletedItem);
+
+//slice()
+let marvelHeroes=["Thor","Spiderman","Ironman","Antman","Hulk"];
+console.log(marvelHeroes);
+console.log(marvelHeroes.slice(1,2);
+console.log(marvelHeroes.slice(1);
+
+// splice()
+let arr = [1,2,3,4,5,6,7];
+arr.splice(2,2,101,102);
+console.log(arr);
