@@ -17,7 +17,7 @@ function sum(x,y){
 }
 sum(1,2);
 
-// we also use return
+// we also use return in it
 function sum(x,y){
   s = x + y;
   return s; // only return one value
@@ -71,7 +71,7 @@ arrry.forEach((val,idx,arrry) => {
     console.log(val,idx,arrry);
 });
 
-// for a given array of numbers, print the square of each value using thr forEach loop...
+// for a given array of numbers, print the square of each value using thr forEach loop..
 let num =[2,3,4,5,6];
 num.forEach((num ) => {
     console.log(num * num);
@@ -115,14 +115,3 @@ let lagestNumber = number.reduce((res ,curr) =>{
     return res > curr ? res : curr;
 });
 console.log(lagestNumber);
-
-
-
-
-
-
-
-
-
-
-
