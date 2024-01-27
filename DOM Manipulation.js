@@ -6,7 +6,7 @@ document.getElementById("myId");
 document.getElementByClassName("className");
 
 // Selecting With tag
-document.getElementByTagName("p");
+document.getElementByTagName("tagName");
 
 // Query Selector
 document.querySelector("myId/.myClass/tag"); // Returns first Elements
