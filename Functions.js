@@ -11,7 +11,7 @@ function myFunction(msg){
 }
 myFunction("I love JS");
 
-// sum two numbers
+// sum two numbers using function 
 function sum(x,y){
   console.log(x+y);
 }
