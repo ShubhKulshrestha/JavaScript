@@ -78,9 +78,9 @@ num.forEach((num ) => {
 });
 
 // map method
-let num = [67,52,39];
-num.map((num) => {
-    console.log(num);
+let number = [67,52,39];
+number.map((number) => {
+    console.log(number);
 });
  // return value
  let nums = [67,52,39];
