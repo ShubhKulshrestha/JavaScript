@@ -1,0 +1,32 @@
+// DOM Manipulation
+// textContent properties
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properties</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+    </style>
+    <div>
+        <h2 style="visibility: hidden;">Menu</h2>
+        <h3>Fruits</h3>
+        <ul>
+            <li>Mango </li>
+            <li>Orange</li>
+            <li>Apple</li>
+            <li>Banana</li>
+        </ul>
+    </div>
+    <script>
+        let heading = document.querySelector("h2");
+        console.dir(heading.textContent);
+    </script>
+</body>
+</html>
