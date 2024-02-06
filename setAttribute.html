@@ -1,0 +1,28 @@
+// setAttribute
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properties</title>
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box"> This is a div</div>
+    <p class="para"> This is a paragraph</p>
+    <script>
+        let div = document.querySelector("div");
+        console.log(div);
+        id = div.setAttribute("id","new box");
+        console.dir(id);
+        
+    </script>
+</body>
+
+</html>
