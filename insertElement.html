@@ -1,0 +1,45 @@
+//insert element 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>insert element</title>
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+
+        #box {
+            height: 300px;
+            width: 100px;
+            color: black;
+            border: 1px solid black;
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box"> This is a div
+        <ul>
+            List
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+    </div>
+    <p class="para"> This is a paragraph</p>
+    <script>
+        let newbtn = document.createElement("button");
+        newbtn.innerText = "click";
+        let div = document.querySelector("div");
+        div.append(newbtn);//adds the end of the node(inside)
+        div.prepend(newbtn);//adds the start of the node(inside)
+        div.before(newbtn);//adds before the node(outside)
+        div.after(newbtn);//adds aftee the node(outside)
+    </script>
+</body>
+
+</html>
