@@ -1,5 +1,5 @@
 //Events in JavaScript...
-//Event Handling in JS
+//Event Handling...
 node.event = () =>{
   // handle here
 };
