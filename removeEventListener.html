@@ -1,0 +1,46 @@
+// remove eventlistener
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event listener</title>
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+        button{
+            background-color:aquamarine;
+            border: 2px solid black;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading"> hi javascript </h1>
+    <button id="btn">Click</button>
+ <script>
+    //Note: to remove an eventlistener the callback reference should be same to remove. 
+    let btn = document.getElementById("btn");
+    btn.addEventListener("click", () =>{
+        console.log("button click1");
+
+    });
+    btn.addEventListener("click", () =>{
+        console.log("button click2");
+        
+    });
+    const handler=() =>{
+        console.log("button click3");
+        
+    };
+    btn.addEventListener("click",handler);
+    btn.addEventListener("click", () =>{
+        console.log("button click4");
+        
+    });
+    btn.removeEventListener("click",handler);
+</script>   
+</body>
+</html> 
