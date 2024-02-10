@@ -1,0 +1,32 @@
+// Event Object
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event object</title>
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+        button{
+            background-color:aquamarine;
+            border: 2px solid black;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading"> hi javascript </h1>
+    <button id="btn">Click</button>
+ <script>
+    let btn = document.getElementById("btn");
+    btn.onclick=(event)=>{
+        console.log(event);
+        console.log("button was clicked");
+        heading.innerText="working";
+    }
+ </script>   
+</body>
+</html> 
