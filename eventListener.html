@@ -1,0 +1,31 @@
+//eventListener
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event listener</title>
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+        button{
+            background-color:aquamarine;
+            border: 2px solid black;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading"> hi javascript </h1>
+    <button id="btn">Click</button>
+ <script>
+    let btn = document.getElementById("btn");
+    btn.addEventListener("click", () =>{
+        console.log("button was click");
+        heading.innerText="working";
+    });
+ </script>   
+</body>
+</html> 
