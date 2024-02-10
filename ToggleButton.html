@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Button</title>
+    <style>
+     .dark{
+        background-color: black;
+        color: white;
+     }
+     .light{
+        background-color: white;
+        color: black;
+     }
+    </style>
+</head>
+<body>
+    <button id="mode">Change Mode</button>
+    <p>Hi javascript...</p>
+    <script>
+        let btnmode=document.querySelector("#mode");
+        let body=document.querySelector("body");
+        let currmode = "light";
+        btnmode.addEventListener("click", () =>{
+           if(currmode==="light"){
+            currmode="dark";
+            body.classList.add("dark");
+            body.classList.remove("light");
+           }
+           else{
+            currmode="light";
+            body.classList.add("light");
+            body.classList.remove("dark");
+           }
+        });
+    </script>
+</body>
+</html>
