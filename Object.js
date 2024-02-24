@@ -13,3 +13,14 @@ const product={
     rating:4,
 };
 console.log(product);
+
+//Function in object
+const student = {
+    name:"Shubh",
+    class:"BCA",
+    age:20,
+    marks:90.00,
+    fun : function(){
+        console.log("Marks is ",this.marks);// student.marks
+    },
+};
