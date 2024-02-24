@@ -24,3 +24,13 @@ const student = {
         console.log("Marks is ",this.marks);// student.marks
     },
 };
+// we can also define the function like this
+const student = {
+    name:"Shubh",
+    class:"BCA",
+    age:20,
+    marks:90.00,
+    function(){
+        console.log("Marks is ",this.marks);
+    },
+};
