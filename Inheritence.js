@@ -23,3 +23,5 @@ class engeneer extends person{
 
 }
 let shubhobj = new engeneer();
+
+//If child and parent have same method, child's method will be used.
