@@ -45,3 +45,4 @@ class engeneer extends person{
     }
 }
 let shubhobj = new engeneer();
+//This things called Method Overriding.
