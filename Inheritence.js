@@ -24,4 +24,24 @@ class engeneer extends person{
 }
 let shubhobj = new engeneer();
 
-//If child and parent have same method, child's method will be used.
+//NOTE: If child and parent have same method, child's method will be used.
+// explained below with example..
+class person {
+    eat(){
+        console.log("eat");
+    }
+    sleep(){
+        console.log("sleep");
+    }
+    Work(){
+        console.log("Working");
+
+    }
+}
+class engeneer extends person{
+    Work(){
+        console.log("Solve Problems, Build Something");
+
+    }
+}
+let shubhobj = new engeneer();
