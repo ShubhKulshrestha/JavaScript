@@ -1,2 +1,2 @@
-let a=10;
+let a= parseInt(prompt("Enter the number):
 console.log(a);
