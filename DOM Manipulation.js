@@ -16,7 +16,7 @@ document.querySelectorAll("myId/.myClass/tag"); // Returns a Nodelist
 getAttribute(attr)// to get the attribute value
 setAttribute(attr,value)// to set attribute value
 
-//style
+// node style 
 Node.style 
 
 // Insert Elements
