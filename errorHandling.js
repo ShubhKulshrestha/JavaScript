@@ -12,3 +12,4 @@ console.log("a + b = ",a + c); // error
 }
 console.log("a - b = ",a - b);
 console.log("a * b = ",a * b);
+console.log("a / b = ",a / b);
