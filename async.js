@@ -8,3 +8,8 @@ setTimeout(()=>{
  
 console.log("three");
 console.log("four");
+
+const hello = () =>{
+    console.log("hello");
+}
+setTimeout(hello,3000);
