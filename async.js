@@ -13,3 +13,10 @@ const hello = () =>{
     console.log("hello");
 }
 setTimeout(hello,3000);
+
+function getData(dataId){
+    setTimeout(()=>{
+        console.log("data",dataId);
+    },2000
+    );         
+}
