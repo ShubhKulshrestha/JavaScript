@@ -13,7 +13,7 @@ const hello = () =>{
     console.log("hello");
 }
 setTimeout(hello,3000);
-
+//function to get data
 function getData(dataId){
     setTimeout(()=>{
         console.log("data",dataId);
