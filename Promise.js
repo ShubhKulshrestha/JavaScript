@@ -1,4 +1,4 @@
-//Promises
+//Promises in javascript...
 let promise = new Promise((resolve,reject) =>{
     console.log("I am a promise");
 });
@@ -9,7 +9,7 @@ let promise = new Promise((resolve,reject) =>{
     
 });
 //resolve state
-let promise = new Promise((resolve,reject) =>{
+let promise = new Promise((resolve,reject) =>{ 
     console.log("I am a promise");
     resolve("Suceess");
 });
