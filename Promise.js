@@ -19,4 +19,5 @@ let promise = new Promise((resolve,reject) =>{
     reject("Error");
 });
 // use the promise
-pr
+promise.then((res) =>{...})
+promise.catch((err)) =>{...})
