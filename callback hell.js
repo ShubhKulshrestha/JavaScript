@@ -8,7 +8,7 @@ function getData(dataId,getNextdata){
         }
     },2000);         
 }
-//Callback hell
+//Callback hell in javascript 
     getData(1,() =>{
     console.log("Getting data 2 ...");
     getData(2,() =>{
