@@ -21,3 +21,17 @@ let promise = new Promise((resolve,reject) =>{
 // use the promise
 promise.then((res) =>{...})
 promise.catch((err)) =>{...})
+
+const getPromise = () =>{
+    return new Promise((resolve,reject) =>{
+        console.log("I am a promise");
+        resolve("Suceess");
+    });
+};
+ let promise = getPromise();
+ promise.then((res) =>{
+    console.log("Promise fulfilled",res);
+ });
+ promise.catch((err) =>{
+    console.log("rejected",err);
+ });
