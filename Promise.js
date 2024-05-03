@@ -18,7 +18,7 @@ let promise = new Promise((resolve,reject) =>{
     console.log("I am a promise");
     reject("Error");
 });
-// use the promise
+// how to use the promise
 promise.then((res) =>{...})
 promise.catch((err)) =>{...})
 
@@ -35,3 +35,4 @@ const getPromise = () =>{
  promise.catch((err) =>{
     console.log("rejected",err);
  });
+
