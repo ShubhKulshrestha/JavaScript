@@ -62,3 +62,4 @@ for(let i in student){
     console.log(i);
 }
 
+//for each loop
