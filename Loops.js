@@ -59,7 +59,8 @@ let student={
      
 };
 for(let i in student){
-    console.log(i);
+    let sabkacode = student[i];
+    console.log(sabkacode);
 }
 
 //for each loop
