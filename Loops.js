@@ -59,7 +59,7 @@ let student={
      
 };
 for(let i in student){
-    console.log(i);
+    console.log(i,"=",student[i]);
 }
 
 //for each loop
