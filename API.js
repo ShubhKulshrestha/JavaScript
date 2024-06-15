@@ -1,3 +1,5 @@
 // Api in javascript 
-// fetch api 
+// fetch API
 let promise = fetch(url,[options])
+
+
