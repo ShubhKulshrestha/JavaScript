@@ -6,18 +6,20 @@ let promise = new Promise((resolve,reject) =>{
 //pending state
 let promise = new Promise((resolve,reject) =>{
     console.log("I am a promise");
-    
 });
+
 //resolve state
 let promise = new Promise((resolve,reject) =>{ 
     console.log("I am a promise");
     resolve("Suceess");
 });
+
 //reject state
 let promise = new Promise((resolve,reject) =>{
     console.log("I am a promise");
     reject("Error");
 });
+
 // how to use the promise
 promise.then((res) =>{...})
 promise.catch((err)) =>{...})
