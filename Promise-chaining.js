@@ -23,4 +23,3 @@ asyncFunc().then((res) =>{
         
     });
 });
-  
